@@ -1,17 +1,20 @@
-# dojo-blogs
+# Project 7: Build a Full-Stack Solution
 
 docker-compose -f docker-compose.yml up
 
-
-// start the api (backend)
+## Project setup
+- To start the api (backend):
 cd backend
 npm install
 npm run dev
-// start the vue app (frontend)
+
+- To start the vue app (frontend):
 cd frontend/vue-project
 npm install
 npm run serve
 
+
+### Project details
 
 Frontend Vuejs app running at:
 - Local:   http://localhost:8080/
@@ -28,22 +31,5 @@ Connected to MySQL database (using Sequelize):
 Redis session storage running at:
 - http://localhost:6379/
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
