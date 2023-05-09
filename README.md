@@ -3,15 +3,15 @@
 docker-compose -f docker-compose.yml up
 
 ## Project setup
-- To start the api (backend):
-cd backend
-npm install
-npm run dev
+To start the api (backend):
+- cd backend
+- npm install
+- npm run dev
 
-- To start the vue app (frontend):
-cd frontend/vue-project
-npm install
-npm run serve
+To start the vue app (frontend):
+- cd frontend/vue-project
+- npm install
+- npm run serve
 
 
 ### Project details
