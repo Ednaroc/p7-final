@@ -1,4 +1,5 @@
 # Project 7: Build a Full-Stack Solution
+Link to the public GitHub repo: https://github.com/Ednaroc/p7-final.git
 
 docker-compose -f docker-compose.yml up
 
