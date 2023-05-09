@@ -1,0 +1,5 @@
+/* Global stylesheet that applies
+to common elements that appear in multiple components */
+body {
+    margin: 0;
+}

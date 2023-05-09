@@ -1,0 +1,21 @@
+// Configuration of sequelize
+
+const path = require('path');
+
+module.exports = {
+    config: path.resolve(__dirname, 'src', 'config', 'database.js'),
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations')
+};
+
+// To create a new database in mysql
+// npx sequelize db:create
+
+// Create a migration file: create a table named users
+// npx sequelize migration:create --name create-users
+// up: what you want to change
+// down: what you want to revert
+// After populating the migration file to run it:
+// npx sequelize db:migrate
+
+// npx sequelize migration:create --name add-islogged-column-user-table
+// npx sequelize migration:create --name create-posts
